@@ -16,6 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        AppRouter.assembler.apply(assemblies: [ CommonAssembly() ,
+                                                LoginAssembly() ,
+                                                HomeAssembly() ,
+                                                LaunchAssembly()
+            ])
+        AppRouter.products = [Products.ARTDEVProduct.productName: { ARTDEVProductRouter(router: $0)}]
+        AppRouter.shared.presentModule(module: Products.ARTDEV.LoginModule, parameters: [:], presentType: .root)
         return true
     }
 
