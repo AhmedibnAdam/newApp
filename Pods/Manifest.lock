@@ -1,0 +1,50 @@
+PODS:
+  - Action (3.8.0):
+    - RxCocoa (~> 4.3.0)
+    - RxSwift (~> 4.3.0)
+  - APIKit (4.0.0):
+    - Result (~> 4.0)
+  - Result (4.0.0)
+  - RxCocoa (4.3.1):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.3.1)
+  - RxWebKit (0.3.7):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - Swinject (2.5.0)
+  - SwinjectAutoregistration (2.5.0):
+    - Swinject (~> 2.5)
+
+DEPENDENCIES:
+  - Action
+  - APIKit
+  - RxCocoa
+  - RxSwift
+  - RxWebKit
+  - Swinject
+  - SwinjectAutoregistration
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Action
+    - APIKit
+    - Result
+    - RxCocoa
+    - RxSwift
+    - RxWebKit
+    - Swinject
+    - SwinjectAutoregistration
+
+SPEC CHECKSUMS:
+  Action: 2275d04a407ecaf46a58d58a304388a28155a0a1
+  APIKit: 23ddce4be7eccd746d2ab3c62713cd80d5846d5a
+  Result: 7645bb3f50c2ce726dd0ff2fa7b6f42bbe6c3713
+  RxCocoa: 78763c7b07d02455598d9fc3c1ad091a28b73635
+  RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
+  RxWebKit: e39e220919e5e24546c837f5f60689036a1e5920
+  Swinject: 82cdb851f63f91bba974e3eca1d69780f2f7677e
+  SwinjectAutoregistration: 0502a16e5f5baf181be80dc9510e0efa29130485
+
+PODFILE CHECKSUM: 7d2e6cdc2546b5370861e5f1272d67b06966d2fd
+
+COCOAPODS: 1.5.3
